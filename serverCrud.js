@@ -10,7 +10,6 @@ const server=http.createServer((req,res)=>{
     // let id= Math.floor(Math.random() * 5)+1
     // console.log(id);
     // const urlId=toString(id);
-    const urlId='3';
     if(req.url==='/products' && req.method==='GET'){
         getProducts(req,res);
     }
