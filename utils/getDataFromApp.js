@@ -10,7 +10,7 @@ function getDataFromUser(req) {
         resolve(JSON.parse(body)); // so like we are resolving the body's data directly
       });
     } catch (error) {
-      reject(erro);
+      reject(error);
     }
   });
 }
